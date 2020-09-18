@@ -1,0 +1,87 @@
+* {
+  margin: 0; }
+
+header {
+  background: #5b1919;
+  display: flex;
+  justify-content: space-around;
+  padding: 3% 0 3% 0; }
+
+nav ul {
+  background: black; }
+nav li {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 160%;
+  padding-right: 1%;
+  margin: 1% 0 1% 0; }
+
+#container {
+  margin: 0 4% 0 4%; }
+
+h3 {
+  background: #c4c4c4;
+  padding: 1% 0 1% 1%;
+  margin-top: 1%; }
+
+.pics1 {
+  width: 100%; }
+
+.pics2 {
+  width: 100%; }
+
+.firstPart {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.figure01 {
+  width: 30%; }
+
+.figure2 {
+  width: 30%; }
+
+figcaption {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 2% 0 2% 0;
+  position: relative;
+  top: -12.5%; }
+
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%; }
+
+.secondPart {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.thirdRow {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.fourthRow {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.cf {
+  margin-top: 2%; }
+
+.bannerRight {
+  height: 100%; }
+
+.navBottom {
+  margin-top: 5%; }
+
+/*# sourceMappingURL=style.css.map */
