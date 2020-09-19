@@ -6,9 +6,23 @@ header {
   display: flex;
   justify-content: space-around;
   padding: 3% 0 3% 0; }
+  @media screen and (max-device-width: 480px) {
+    header {
+      padding: 5% 0 5% 0; } }
+
+@media screen and (max-device-width: 480px) {
+  .logoTop {
+    width: 35%; } }
+
+@media screen and (max-device-width: 480px) {
+  .banTop {
+    display: none; } }
 
 nav ul {
   background: black; }
+  @media screen and (max-device-width: 480px) {
+    nav ul {
+      text-align: center; } }
 nav li {
   text-decoration: none;
   display: inline-block;
@@ -16,6 +30,10 @@ nav li {
   font-size: 160%;
   padding-right: 1%;
   margin: 1% 0 1% 0; }
+  @media screen and (max-device-width: 480px) {
+    nav li {
+      font-size: 300%;
+      margin: 2% 0 2% 0; } }
 
 #container {
   margin: 0 4% 0 4%; }
@@ -36,12 +54,21 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+  @media screen and (max-device-width: 480px) {
+    .firstPart {
+      flex-wrap: wrap; } }
 
 .figure01 {
   width: 30%; }
+  @media screen and (max-device-width: 480px) {
+    .figure01 {
+      width: 45%; } }
 
 .figure2 {
-  width: 30%; }
+  width: 40%; }
+  @media screen and (max-device-width: 480px) {
+    .figure2 {
+      width: 45%; } }
 
 figcaption {
   text-align: center;
@@ -51,10 +78,20 @@ figcaption {
   position: relative;
   top: -12.5%; }
 
+.banMob1 {
+  display: none; }
+  @media screen and (max-device-width: 480px) {
+    .banMob1 {
+      display: block;
+      width: 35%; } }
+
 .banner {
   display: flex;
   justify-content: center;
   margin-top: 2%; }
+  @media screen and (max-device-width: 480px) {
+    .banner {
+      display: none; } }
 
 .secondPart {
   margin-top: 2%;
@@ -66,7 +103,6 @@ figcaption {
   margin-top: 2%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-around; }
 
 .fourthRow {
@@ -76,10 +112,14 @@ figcaption {
   justify-content: space-around; }
 
 .cf {
-  margin-top: 2%; }
+  margin-top: 2%;
+  margin-right: 3%; }
 
 .bannerRight {
   height: 100%; }
+  @media screen and (max-device-width: 480px) {
+    .bannerRight {
+      display: none; } }
 
 .navBottom {
   margin-top: 5%; }
@@ -87,13 +127,18 @@ figcaption {
 footer {
   padding: 0% 0 0% 0;
   background: black;
-  color: white; }
+  color: white;
+  padding: 5% 0 5% 0; }
   footer p {
-    padding: 0% 0 3% 0;
+    padding: 0 0 0 0;
     text-align: center; }
 
-.imgFoot {
+.logoBottom {
   display: flex;
   justify-content: flex-end; }
+  @media screen and (max-device-width: 480px) {
+    .logoBottom {
+      display: flex;
+      justify-content: center; } }
 
 /*# sourceMappingURL=style.css.map */

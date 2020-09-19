@@ -7,9 +7,29 @@ header
 	justify-content: space-around
 	padding: 3% 0 3% 0
 
+	@media screen and (max-device-width: 480px)
+		padding: 5% 0 5% 0
+
+
+
+.logoTop
+
+	@media screen and (max-device-width: 480px)
+		width: 35%
+	
+
+.banTop
+	@media screen and (max-device-width: 480px)
+		display: none
+
 nav
 	ul
 		background: black
+		
+
+		@media screen and (max-device-width: 480px)
+			text-align: center
+		
 
 	li
 		text-decoration: none
@@ -18,6 +38,10 @@ nav
 		font-size: 160%
 		padding-right: 1%
 		margin: 1% 0 1% 0
+
+		@media screen and (max-device-width: 480px)
+			font-size: 300%
+			margin: 2% 0 2% 0
 
 #container
 	margin: 0 4% 0 4%
@@ -40,11 +64,20 @@ h3
 	flex-direction: row
 	justify-content: space-between
 
+	@media screen and (max-device-width: 480px)
+		flex-wrap: wrap
+
 .figure01
 	width: 30%
 
+	@media screen and (max-device-width: 480px)
+		width: 45%
+
 .figure2
-	width: 30%
+	width: 40%
+
+	@media screen and (max-device-width: 480px)
+		width: 45%
 
 figcaption
 	text-align: center
@@ -54,10 +87,21 @@ figcaption
 	position: relative
 	top: -12.5%
 
+.banMob1
+	display: none
+
+	@media screen and (max-device-width: 480px)
+		display: block
+		width: 35%
+
+
 .banner
 	display: flex
 	justify-content: center
 	margin-top: 2%
+
+	@media screen and (max-device-width: 480px)
+		display: none
 
 .secondPart
 	margin-top: 2%
@@ -70,7 +114,6 @@ figcaption
 	margin-top: 2%
 	display: flex
 	flex-direction: row
-	flex-wrap: wrap
 	justify-content: space-around
 
 .fourthRow
@@ -81,9 +124,13 @@ figcaption
 
 .cf
 	margin-top: 2%
+	margin-right: 3%
 
 .bannerRight
 	height: 100%
+
+	@media screen and (max-device-width: 480px)
+		display: none
 
 .navBottom
 	margin-top: 5%
@@ -93,13 +140,21 @@ footer
 	background: black
 	color: white
 
+	@media screen and (max-device-width: 480px)
+	padding: 5% 0 5% 0
+
 	p
-		padding: 0% 0 3% 0
+		padding: 0 0 0 0
 		text-align: center
 
-.imgFoot
+
+.logoBottom
 	display: flex
 	justify-content: flex-end
+
+	@media screen and (max-device-width: 480px)
+		display: flex
+		justify-content: center
 		
 
 
