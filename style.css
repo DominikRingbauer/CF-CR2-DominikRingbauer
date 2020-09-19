@@ -18,6 +18,9 @@ header {
   .banTop {
     display: none; } }
 
+body {
+  font-family: Avenir; }
+
 nav ul {
   background: black; }
   @media screen and (max-device-width: 480px) {
@@ -34,6 +37,9 @@ nav li {
     nav li {
       font-size: 300%;
       margin: 2% 0 2% 0; } }
+nav a {
+  text-decoration: none;
+  color: white; }
 
 #container {
   margin: 0 4% 0 4%; }
@@ -140,5 +146,14 @@ footer {
     .logoBottom {
       display: flex;
       justify-content: center; } }
+
+h1 {
+  text-align: center;
+  padding: 1% 0 1% 0; }
+
+#videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
 
 /*# sourceMappingURL=style.css.map */
