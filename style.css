@@ -133,8 +133,10 @@ figcaption {
 footer {
   padding: 0% 0 0% 0;
   background: black;
-  color: white;
-  padding: 5% 0 5% 0; }
+  color: white; }
+  @media screen and (max-device-width: 480px) {
+    footer {
+      padding: 5% 0 5% 0; } }
   footer p {
     padding: 0 0 0 0;
     text-align: center; }
@@ -155,5 +157,8 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
+  @media screen and (max-device-width: 480px) {
+    #videos {
+      flex-direction: column; } }
 
 /*# sourceMappingURL=style.css.map */
