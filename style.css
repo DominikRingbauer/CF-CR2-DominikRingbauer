@@ -84,4 +84,16 @@ figcaption {
 .navBottom {
   margin-top: 5%; }
 
+footer {
+  padding: 0% 0 0% 0;
+  background: black;
+  color: white; }
+  footer p {
+    padding: 0% 0 3% 0;
+    text-align: center; }
+
+.imgFoot {
+  display: flex;
+  justify-content: flex-end; }
+
 /*# sourceMappingURL=style.css.map */
